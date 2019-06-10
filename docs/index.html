@@ -79,190 +79,29 @@
         font-size: 48px;
         font-weight: bold;
       }
+      .p20{
+        padding: 20px;
+      }
     </style>
   </head>
   <body>
     <amp-story standalone title="Joy of Pets" publisher="AMP tutorials" publisher-logo-src="assets/AMP-Brand-White-Icon.svg" poster-portrait-src="assets/cover.jpg">
-      <amp-story-page id="cover">
+      <amp-story-page id="cover" auto-advance-after="5s">
         <amp-story-grid-layer template="fill">
           <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
         </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical" animate-in="drop">
-          <p class="effect">drop</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-          
+      </amp-story-page>
+      <amp-story-page id="page1" auto-advance-after="5s">
+        <amp-story-grid-layer template="vertical" class="p20">
+          <amp-img src="assets/cover_flower1.jpg" width="720" height="1280" layout="responsive" id="img1" animate-in="fly-in-left" animate-in-delay="0.5s"></amp-img>
+          <amp-img src="assets/cover_flower2.jpg" width="720" height="1280" layout="responsive" id="img2" animate-in="fly-in-right" animate-in-after="img1" animate-in-delay="0.5s"></amp-img>
+          <amp-img src="assets/cover_flower3.jpg" width="720" height="1280" layout="responsive" id="img3" animate-in="fly-in-left" animate-in-after="img2" animate-in-delay="0.5s"></amp-img>
+          <amp-img src="assets/cover_flower4.jpg" width="720" height="1280" layout="responsive" id="img4" animate-in="fly-in-right" animate-in-after="img3" animate-in-delay="0.5s"></amp-img>
         </amp-story-grid-layer>
       </amp-story-page>
-      <amp-story-page id="page1">
+      <amp-story-page id="page2" auto-advance-after="5s">
         <amp-story-grid-layer template="fill">
           <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical" animate-in="fade-in">
-          <p class="effect">fade-in</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page2">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical" animate-in="fly-in-bottom">
-          <p class="effect">fly-in-bottom</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page3">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical" animate-in="fly-in-left">
-          <p class="effect">fly-in-left</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page4">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical" animate-in="fly-in-right">
-          <p class="effect">fly-in-right</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page5">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical" animate-in="fly-in-top">
-          <p class="effect">fly-in-top</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page6">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical" animate-in="pulse">
-          <p class="effect">pulse</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page7">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical" animate-in="rotate-in-left">
-          <p class="effect">rotate-in-left</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-
-      <amp-story-page id="page8">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical" animate-in="rotate-in-right">
-          <p class="effect">rotate-in-right</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page9">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical" animate-in="twirl-in">
-          <p class="effect">twirl-in</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page10">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical" animate-in="whoosh-in-left">
-          <p class="effect">whoosh-in-left</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page11">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical" animate-in="whoosh-in-right">
-          <p class="effect">whoosh-in-right</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page12">
-        <amp-story-grid-layer template="fill" animate-in="pan-left">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical">
-          <p class="effect">pan-left</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page13">
-        <amp-story-grid-layer template="fill" animate-in="pan-right">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical">
-          <p class="effect">pan-right</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page14">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="600" layout="responsive" layout="fixed" animate-in="pan-down"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical">
-          <p class="effect">pan-down</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page15">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="600" layout="responsive" animate-in="pan-up"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical">
-          <p class="effect">pan-up</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page16">
-        <amp-story-grid-layer template="fill" animate-in="zoom-in">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical">
-          <p class="effect">zoom-in</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page17">
-        <amp-story-grid-layer template="fill" animate-in="zoom-out">
-          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical">
-          <p class="effect">zoom-out</p>
-          <h2>曼珠沙華</h2>
-          <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
         </amp-story-grid-layer>
       </amp-story-page>
     </amp-story>
